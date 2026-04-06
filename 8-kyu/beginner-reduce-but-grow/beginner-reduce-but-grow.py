@@ -1,5 +1,5 @@
 def grow(arr):
     res = 1
     for i in arr:
-        res = res * i
+        res *= i
     return res
